@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@1;100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ysabeau', sans-serif;
+}
+.container{
+  background-color: #9494b8;
+  color: #333333;
+  padding: 40px;
+  margin: 60px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 4px;
+}
+.container h1{
+  border-bottom: 2px solid white;
+  text-shadow: 1px 1px 0px white;
+  text-align: center;
+}
+.button1{
+  display: flex;
+  justify-content: center;
+}
+.div1{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  border-bottom: 1px solid;
+  padding-bottom: 6px;
+}
+input{
+  border: none;
+    background-color: #333333;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 1px 1px 1px whitesmoke;
+    width: 400px;
+
+}
+button{
+  border: none;
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 1px 1px 1px whitesmoke;
+
+}
+label{
+  /* border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  padding-right: 3px; */
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: 1px 1px 0px white;
+}
+
